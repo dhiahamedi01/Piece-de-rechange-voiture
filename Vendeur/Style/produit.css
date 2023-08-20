@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600&family=Noto+Kufi+Arabic:wght@100&display=swap');
+form{
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 4px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    margin-left: 5%;
+    padding-top: 1%;
+}
+.groupe{
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    padding: 10px;
+}
+.groupe3{
+  justify-content: space-between;
+  display: flex;
+  width: 94%;
+  height: 17vh;
+  margin-left: 3%;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 2px 4px 2px rgba(0, 0, 0, 0.1);
+}
+.groupe2 {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  text-align: right;
+}
+
+.titre {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.gender-option {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.gender {
+  margin-left: 10px; 
+}
+
+.gender input[type="radio"] {
+  display: none; 
+}
+
+.gender label {
+  cursor: pointer;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.gender input[type="radio"]:checked + label {
+  background-color: #ffc800;
+  color: #000000;
+}
+
+form h1{
+    text-align: center;
+    font-family: 'Cairo','Noto Kufi Arabic', sans-serif; 
+    width: 100%;
+    font-weight: 700;
+}
+.groupe input,.groupe3 input{
+    height: 40px;
+    width: 340px;
+    border-radius: 0.25rem;
+    outline: none;
+    text-decoration: none;
+    text-align: right;
+    border: none;
+    padding-right: 20px;
+    background-color: #f5f5f5;
+    box-shadow: 2px 4px 2px rgba(0, 0, 0, 0.1);
+    color: #000000;
+    font-weight: 500;
+    font-family: 'Cairo','Noto Kufi Arabic', sans-serif;
+    margin-top: 8px;
+}
+.partie{
+display: block;
+text-align: right;
+}
+.groupe1{
+    margin-top: 38px;
+    margin-right: 20%;
+  }
+  
+  .file{
+    height: 40px;
+    border-radius: 5px;
+    
+  }
+  .groupe1 .file-input{
+  height: 41px;
+  opacity: 0;
+  width: 340px;
+  border-radius: 5px;
+  
+  }
+  .file label{
+    height: 41px;
+    width: 340px;
+    background-color: #ffc800;
+    position: absolute;
+    margin: auto;
+    display: flex;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: #000000;
+  
+  }
+
+  .select-groupe select{
+    text-align: center;
+    width: 240px;
+    padding: 0.5rem;
+    border: 1px solid #7c7c7c;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    appearance: none;
+    outline: none;
+    background-color: #f5f5f5;
+    background-repeat: no-repeat;
+    background-position: center right 0.5rem;
+    font-family: 'Cairo','Noto Kufi Arabic', sans-serif;
+    margin-top: 8px;
+    margin: 2px;
+  }
+  .select-groupe1 select{
+    text-align: center;
+    width: 340px;
+    padding: 0.5rem;
+    border: 1px solid #7c7c7c;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    appearance: none;
+    outline: none;
+    background-color: #f5f5f5;
+    background-repeat: no-repeat;
+    background-position: center right 0.5rem;
+    font-family: 'Cairo','Noto Kufi Arabic', sans-serif;
+    margin-top: 10px;
+
+  }
+
+  .select-groupe select option,.select-groupe1 select option{
+    color: black;
+    background: #f5f5f5;
+    display: flex;
+    white-space: pre;
+    min-height: 20px;
+    text-align: right;
+    font-family: 'Cairo','Noto Kufi Arabic', sans-serif;
+  }
+ .partie2{
+    width: 100%;
+    text-align: right;
+
+  }
+  .partie2 label{
+    text-align: right;
+  }
+  .groupe2 label{
+    text-align: right;
+  }
+  .groupe .partie2 textarea {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    resize: vertical; 
+    outline: none;
+    border-radius: 5px;
+    text-align: right;
+    font-family: 'Cairo','Noto Kufi Arabic', sans-serif;
+  }
+button{
+  background-color: #ffc800;
+  color: #000000;
+  font-family: 'Cairo','Noto Kufi Arabic', sans-serif;
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 800;
+
+}
+button:hover{
+  background-color: #edba02;
+}
+  @media (max-width: 550px) {
+    .groupe{
+        display: block;
+       }
+    input{
+        width: 200px;
+    }
+  }
+  @media (max-width: 400px) {
+   .groupe{
+    display: block;
+   }
+   input{
+    width: 200px;
+}
+  }
+  h1{
+    text-align: center;
+  }
+
+  table{
+    background-color:#ffffff;
+    border:  2px solid #ffc800;
+    box-shadow: 0px 5px 50px rgba(0, 0, 0,0 , 15);
+    border-collapse: collapse;
+    margin-top: 50px;
+    margin-left: 1.5%;
+    width: 97%;
+  }
+   table tr td {
+    padding: 8px 10px;
+    text-align: center;
+  }
+   table .title{
+    background-color:#ffc800;
+    border-radius: 1rem;
+  
+  }
+   table .title td{
+    color: #000000;
+    text-align: center;
+  }
+  table tr td .btn1 {
+    background:#00ca65;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    text-decoration: none !important;
+  }
+  table tr td .btn1 span{
+    font-family: 'Cairo', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none !important;
+    color: #fff;
+    list-style: none;
+    padding: 18px;
+  }
+  table tr td .btn3 {
+    background:#006fca;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    text-decoration: none !important;
+  }
+  table tr td button{
+    background:#e63600;
+    width: 120px;
+    height: 40px;
+    color: #ddd;
+    border-radius: 0.3rem;
+    font-size: 14px;
+    font-weight: 500;
+    border: solid;
+    border-color: #ff3c00;
+  }
+  table tr td .btn3 span{
+    font-family: 'Cairo', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none !important;
+    color: #fff;
+    list-style: none;
+    padding: 18px;
+  }
+  table tr td .btn2{
+    background:#ff0000;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    text-decoration: none !important;
+  }
+  table tr td .btn2 span{
+    font-family: 'Cairo', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none !important;
+    color: #fff;
+    list-style: none;
+    padding: 18px;
+  }
+  table img{
+    width: 60px;
+    height: 50px;
+    border-radius: 0.7rem;
+  }
+ .searchBtn{
+    background-color:#edba02;
+    height: 40px;
+    width: 100px;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    margin-top: 40%;
+    font-family: 'Cairo', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.2rem;
+    border: none; 
+    cursor: pointer;
+  }
+  .searchBtn:hover{
+    background-color:#dcad03;
+  }
+  .searchBtn span{
+    font-size: 18px;
+    font-family: 'Cairo', sans-serif;
+  }
+  .globale a .card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+    width: 100%; /* Ajuste la largeur en fonction de l'écran */
+    max-width: 300px; /* Limite la largeur maximale de la carte */
+    display: inline-block;
+    background-color: #FFF;
+    -webkit-transition: -webkit-transform 0.3s, box-shadow 0.3s;
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-decoration: none;
+    color: #000000;
+}
+.card:hover{
+
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.card img {
+    max-width: 100%;
+    height: auto;
+    max-width: 60%;
+    border-radius: 5px;
+}
+
+.card h2 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+.globale{
+  margin-left: 25%;
+}
+
+@media (max-width: 768px) {
+  .globale{
+    margin-left: 12%;
+  }
+}
